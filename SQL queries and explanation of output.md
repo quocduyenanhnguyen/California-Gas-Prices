@@ -312,8 +312,7 @@ limit 1
 
 -> Vidal Junction has the most expensive average regular gas price
 
-# most regular gas price fluctuation (highest delta, if there are multiple deltas per gas station address then we will get the average of 
-# the deltas) gas station address in the last 12 hours (zero does not count because it means there's no changes)
+# most regular gas price fluctuation (highest delta, if there are multiple deltas per gas station address then we will get the average of the deltas) gas station address in the last 12 hours (zero does not count because it means there's no changes)
 ```
 with cte2 as (with cte1 as (with cte as (select distinct last_updated_price, substring_index(replace(replace(replace(Station, "('", ' '), "'", ''), ")", ''), ', ', 1) as Gas_Station,
 substring_index(replace(replace(replace(Station, "('", ' '), "'", ''), ")", ''), ', ', -1) as Gas_Station_Address, price
