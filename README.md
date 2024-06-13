@@ -1,6 +1,7 @@
 # Software I used:
 [MySQL Workbench](https://dev.mysql.com/downloads/workbench/): to write SQL 
-[PyCharm CE] (https://www.jetbrains.com/pycharm/download/?section=windows): to run Python script to scrap gas data
+
+[PyCharm CE](https://www.jetbrains.com/pycharm/download/?section=windows): to run Python script to scrap gas data
 
 # Description: 
 
