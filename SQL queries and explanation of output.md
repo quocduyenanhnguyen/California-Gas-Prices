@@ -146,7 +146,7 @@ order by formatted_date
 #### Output
 ![Screen Shot 2024-06-12 at 9 37 45 PM](https://github.com/quocduyenanhnguyen/California-Gas-Prices/assets/92205707/aea43776-2453-45a4-afb3-02fe7a01b12a)
 
--> The price went up and down quite frequently, which see its peak on Jun 9 at 3:00 PM (it went down by 6.5%, I wish it stayed this way for long)
+-> The price went up and down quite frequently, which see its peak on Jun 9 at 3:00 PM (it went down by 6.5%)
 
 # average price difference 
 ```
@@ -279,9 +279,7 @@ limit 1
 
 -> Wintun Mini Market has the lowest average diesel fuel gas
 
-# 6. Which part of California sees the cheapeast average regular gas price, most expensive average regular gas price?
-# Which gas station address sees most regular gas price fluctuation (highest delta), and the most price changes (more changes in price) 
-# in the last 12 hours according to this dataset? 
+# 6. Which part of California sees the cheapeast average regular gas price, most expensive average regular gas price? Which gas station address sees most regular gas price fluctuation (highest delta), and the most price changes (more changes in price) in the last 12 hours according to this dataset? 
 # The cheapest part of California
 ```
 select Area, round(avg(price), 2) as 
