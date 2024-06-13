@@ -7,5 +7,5 @@
 
 - I explored http://www.californiagasprices.com website to collect and analyze gas data. I came up with questions and then answered them.
 - Data will be analyzed from Jun 6, 2024 to Jun 12, 2024. The data from the CSV files are refreshed daily using scheduling tool (i.e. Cron Job)
-- Attached to this repository is my SQL queries and output/explanation of output, Python script to scrap data from the website, and 3 CSV files (Regular Gas, Midgrade Gas, Premium Gas, Diesel Fuel Gas)
+- Attached to this repository is my SQL queries and output/explanation of output, Python script to scrap data from the website, another Python script to delete any old CSV files that are older than 90 days, and 4 CSV files (Regular Gas, Midgrade Gas, Premium Gas, Diesel Fuel Gas)
 - Link to Tableau viz: 
